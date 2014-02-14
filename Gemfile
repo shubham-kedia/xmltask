@@ -21,6 +21,15 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+gem 'capistrano', '~> 2.15.5'
+gem 'rvm-capistrano'
+
+gem 'minitest', '~> 4.7.5'
+gem 'json', '~>1.8.1'
+gem 'mysql2', '~>0.3.15'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
